@@ -1,7 +1,6 @@
 import random as rand
 import pygame as py
 endGame = False
-rolls = 30
 maxScore = 30
 
 def roll():
