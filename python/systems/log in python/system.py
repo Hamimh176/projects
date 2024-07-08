@@ -27,4 +27,3 @@ def handle_connection(c):
 while True:
     client, addr = server.accept()
     thr.Thread(target = handle_connection, args = (client)).start()
-
